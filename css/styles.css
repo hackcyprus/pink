@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  font-size: 16px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-moz-selection {
+    background: rgba(110,192,207,1);
+    text-shadow: none;
+    color: #ffffff;
+}
+
+::selection {
+    background: rgba(110,192,207,1);
+    text-shadow: none;
+    color: #ffffff;
+}
+
+body {
+    background: white;
+    font-family: "freight-sans-pro";
+    color: #333333;
+    line-height: 1.4;
+}
+
+button {
+  font-family: sans-serif;
+}
+
+
+@media only screen and (min-width: 35em) {
+    .grid_3 {
+      width: auto;
+      float: none;
+    }
+}
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* Typography */
+
+/* Styles */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+    background-image: url(/images/limassol.jpg);
+    height: 650px;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 0;
+}
+
+header nav ul {
+    list-style: none;
+    width: 678px;
+    margin: 0px auto 46px auto;
+    padding-top: 56px;
+}
+
+header nav ul li {
+    float: left;
+    text-transform: uppercase;
+    margin: 0px 37px 0px 37px;
+    text-shadow: 0px 0px 11px black;
+    font-size: 0.875em;
+    letter-spacing: 2px;
+    font-family: "futura-pt";
+    font-weight: 500;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header #logo {
+    position: relative;
+    left: 50%;
+    margin-left: -112px;
+    margin-bottom: 21px;
+}
+
+header .tagline {
+    font-weight: 600;
+    text-shadow: 0px 0px 11px black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1.tagline {
+    font-size: 3.25em;
+    width: 920px;
+    border-bottom: 8px solid white;
+    padding-bottom: 7px;
+    margin-bottom: 21px;
+}
+
+header h2.tagline {
+    font-size: 1.25em;
+    width: 615px;
+    margin-bottom: 46px;
+}
+
+header #date {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "futura-pt";
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+header #tickets {
+    display: block;
+    border-radius: 5px;
+    background-color: #ef3c59;
+    color: white;
+    font-family: "futura-pt";
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.25em;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 2;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #B33348;
+}
+
+header #tickets:hover {
+    background-color: #C93850;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#main {
+    margin-top: 65px;
+    font-family: "futura-pt";
+}
+
+#main section {
+    width: 770px;
+    margin-left: 95px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+#main p {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+}
+
+#main h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+#map {
+    border: 8px solid #eee;
+    border-radius: 5px;
+}
+
+#venue {
+    text-align: center;
+}
+
+#venue p.bigass {
+    font-size: 3.5em;
+    font-weight: 500;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ef3c59;
+    display: block;
+    margin: 0 auto;
+}
+
+#venue p.smaller {
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 2px;
+}
+
+
+footer {
+  border-top: 1px solid #dddddc;
+  padding: 3em 0;
+}
+
+    footer img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    footer p {
+        font-family: "futura-pt";
+        padding: 0 6em;
+        color: #b5b5b5;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 1em;
+        font-weight: 400;
+    }
