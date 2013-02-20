@@ -213,8 +213,8 @@ header #tickets:hover {
 }
 
 #main section {
-    width: 770px;
-    margin-left: 95px;
+    width: 840px;
+    margin-left: 60px;
     margin-top: 53px;
     margin-bottom: 53px;
 }
@@ -253,10 +253,6 @@ header #tickets:hover {
     height: 90px;
     line-height: 90px;
     color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
     background-color: #ef3c59;
     display: block;
     margin: 0 auto;
@@ -266,6 +262,46 @@ header #tickets:hover {
     font-weight: 500;
     color: #999;
     letter-spacing: 2px;
+}
+
+div.person {
+    width: 260px;
+    float: left;
+    text-align: center;
+    margin-right: 28px;
+}
+
+div.person img {
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -o-border-radius: 500px;
+    border-radius: 500px;
+}
+
+div.person h3 {
+    text-transform: uppercase;
+    font-family: "futura-pt";
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 17px;
+    margin-bottom: 3px;
+}
+
+div.person h4 {
+    font-style: italic;
+    font-family: "freight-sans-pro";
+    color: #888;
+    font-size: 0.875em;
+    margin-bottom: 6px;
+}
+
+div.person a {
+    color: #3894C9;
+    text-decoration: none;
+}
+
+div.person a:hover {
+    text-decoration: underline;
 }
 
 footer {
