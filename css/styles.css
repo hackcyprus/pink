@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,41 +15,41 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 body {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 ::-moz-selection {
@@ -72,15 +71,10 @@ body {
     line-height: 1.4;
 }
 
-button {
-  font-family: sans-serif;
-}
-
-
 @media only screen and (min-width: 35em) {
     .grid_3 {
-      width: auto;
-      float: none;
+        width: auto;
+        float: none;
     }
 }
 
@@ -183,7 +177,6 @@ header #date {
 
 header #tickets {
     display: block;
-    border-radius: 5px;
     background-color: #ef3c59;
     color: white;
     font-family: "futura-pt";
@@ -201,6 +194,10 @@ header #tickets {
     z-index: 2;
     text-decoration: none;
     text-shadow: 1px 1px 0px #B33348;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
 }
 
 header #tickets:hover {
@@ -238,6 +235,9 @@ header #tickets:hover {
 
 #map {
     border: 8px solid #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
     border-radius: 5px;
 }
 
@@ -252,6 +252,9 @@ header #tickets:hover {
     height: 90px;
     line-height: 90px;
     color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
     border-radius: 5px;
     background-color: #ef3c59;
     display: block;
@@ -264,23 +267,22 @@ header #tickets:hover {
     letter-spacing: 2px;
 }
 
-
 footer {
-  border-top: 1px solid #dddddc;
-  padding: 3em 0;
+    border-top: 1px solid #dddddc;
+    padding: 3em 0;
 }
 
-    footer img {
-        margin: 0 auto;
-        display: block;
-    }
+footer img {
+    margin: 0 auto;
+    display: block;
+}
 
-    footer p {
-        font-family: "futura-pt";
-        padding: 0 6em;
-        color: #b5b5b5;
-        text-align: center;
-        letter-spacing: 1px;
-        margin-bottom: 1em;
-        font-weight: 400;
-    }
+footer p {
+    font-family: "futura-pt";
+    padding: 0 6em;
+    color: #b5b5b5;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
