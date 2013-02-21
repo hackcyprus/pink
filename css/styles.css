@@ -271,6 +271,10 @@ div.person {
     margin-right: 28px;
 }
 
+div.person.second-row {
+    margin-top: 41px;
+}
+
 div.person img {
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
