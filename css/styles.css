@@ -308,6 +308,16 @@ div.person a:hover {
     text-decoration: underline;
 }
 
+#sponsors {
+    text-align: center;
+}
+
+div.sponsor {
+    display: inline-block;
+    width: 150px;
+    margin: 0px 41px 0px 41px;
+}
+
 footer {
     border-top: 1px solid #dddddc;
     padding: 3em 0;
