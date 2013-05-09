@@ -1,4 +1,4 @@
 pink
 ====
 
-Marketing pages for our Pink Edition events
+marketing pages for the Pink Edition events
